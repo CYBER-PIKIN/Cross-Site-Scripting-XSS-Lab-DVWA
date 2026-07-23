@@ -48,7 +48,7 @@ You should see a page asking:
 There will be a text box and a Submit button.
 
 
-(Insert screenshot of the Reflected XSS page.)
+![Reflected XSS page](https://github.com/CYBER-PIKIN/Cross-Site-Scripting-XSS-Lab-DVWA/blob/main/Images/Reflected%20page.png)
 
 ### Step 2 – Test for XSS
 
@@ -67,7 +67,7 @@ Instead of displaying the text normally, the browser opens a popup saying:
 **This confirms that the website executed your JavaScript instead of displaying it as text.**
 
 
-(Insert screenshot showing the alert popup.)
+![alert popup](https://github.com/CYBER-PIKIN/Cross-Site-Scripting-XSS-Lab-DVWA/blob/main/Images/Alert-XSS.png)
 
 **Why did this happen?**
 
@@ -97,7 +97,7 @@ A popup appears showing something similar to:
 
 *PHPSESSID=o3tiup20lg7jg47hmtfh2p1nm3; security=low*
 
-(Insert screenshot showing the cookie alert.)
+![cookie alert](https://github.com/CYBER-PIKIN/Cross-Site-Scripting-XSS-Lab-DVWA/blob/main/Images/Cookie%20Alert.png)
 
 **What is a Cookie?**
 
@@ -135,7 +135,7 @@ An attacker could send this link through:
 Once the victim clicks the link, the browser executes the JavaScript.
 
 
-(Insert screenshot showing the crafted URL.)
+![crafted URL](https://github.com/CYBER-PIKIN/Cross-Site-Scripting-XSS-Lab-DVWA/blob/main/Images/Malicious%20Link.png)
 
 **Why is it called Reflected XSS?**
 
@@ -164,7 +164,7 @@ You will see a Guestbook with:
 fields.
 
 
-(Insert screenshot of the Stored XSS page.)
+![Stored XSS page](https://github.com/CYBER-PIKIN/Cross-Site-Scripting-XSS-Lab-DVWA/blob/main/Images/Stored%20Page.png)
 
 ### Step 2 – Inject the Payload
 
@@ -187,7 +187,7 @@ Immediately after saving, a popup appears saying:
 *Stored XSS*
 
 
-(Insert screenshot showing the popup.)
+![popup](https://github.com/CYBER-PIKIN/Cross-Site-Scripting-XSS-Lab-DVWA/blob/main/Images/Stored%20Alert.png)
 
 ### Step 4 – Refresh the Page
 
@@ -197,8 +197,6 @@ Notice something different.
 
 The popup appears again, even though you did not submit the form again.
 
-
-(Insert screenshot after refreshing.)
 
 **Why did this happen?**
 
